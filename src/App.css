@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
 .App {
   text-align: center;
 }
@@ -35,4 +36,136 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.homeBody {
+  width: 100vw;
+  height: 89.7vh;
+  background: url("./Images/img.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.changePosition {
+  width: 600px;
+  height: 200px;
+  position: fixed;
+  top: 35%;
+  left: 13%;
+}
+
+.loginbg {
+  border: 2px solid rgb(14, 12, 12);
+  width: 35%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 30px;
+  border-radius: 25px;
+  background-color: rgba(240, 248, 255, 0.212);
+}
+.inputField {
+  padding: 10px;
+  font-size: 20px;
+  width: 400px;
+  border-radius: 15px;
+}
+/* .eyesee{
+background:url('') no-repeat center ;
+}
+.eyenotsee{
+
+} */
+
+.Icon_Position {
+  display: block;
+  position: relative;
+  left: 37%;
+  margin-top: -34px;
+}
+
+.fSize {
+  font-size: 20px;
+  color: #282c34;
+  background-color: pink;
+  border: 2px solid black;
+  padding: 8px;
+  border-radius: 25px;
+}
+.floatRight {
+  color: red;
+  cursor: pointer;
+}
+
+.smallBox {
+  border: 2px solid black;
+  width: 35%;
+  padding: 20px;
+  border-radius: 25px;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(240, 248, 255, 0.212);
+}
+.fullBox {
+  background: url("./Images/img2.jpg");
+  height: 100vh;
+}
+
+.marginbottom {
+  margin-bottom: 10px;
+}
+
+.pagebg {
+  background: url("./Images/img3.jpg") no-repeat center;
+  height: 100vh;
+}
+
+.changePosition {
+  font-family: "Dancing Script", cursive;
+  font-size: 30px;
+  font-weight: lighter;
+  color: rgb(238, 9, 47);
+}
+
+.sidebar {
+  width: 20%;
+  height: 90.4vh;
+  background: rgba(0, 132, 255, 0.521);
+  float: left;
+}
+.datashow {
+  width: 79.7%;
+  height: 90vh;
+  float: right;
+  background: url("./Images/heroimage.png") no-repeat center;
+  opacity: 0.3;
+  background-size: 79.7%;
+}
+.txt {
+  font-family: "Dancing Script", cursive;
+}
+.list li {
+  list-style: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  list-style-position: outside;
+}
+.centerimage {
+  float: right;
+  width: 1050px;
+  height: 580px;
+  margin: 8px 15px 0px 0px;
+  overflow: auto;
+}
+
+.rowHover:hover {
+  background-color: #61dafb;
+}
+.text {
+  font-size: 20px;
+  margin-right: 10px;
+}
+#btn_right {
+  margin-left: 50%;
 }
